@@ -44,7 +44,6 @@ function likebtn (btn, icon, c){
   let clicked = false;
 
   likeBtn.addEventListener("click", () => {
-    console.log(likeBtn,likeIcon, count);
     if(!clicked){
       clicked=true;
       likeIcon.innerHTML = `<i class="fa-solid fa-heart"></i>`

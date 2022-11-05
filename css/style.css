@@ -31,7 +31,7 @@ body{
 
 /* Our Blockbusters Cakes */
 .ex-card{
-  margin: 50px 10%;
+  margin: 0 10% 50px;
 }
 .tit{
   display: flex;
@@ -82,8 +82,8 @@ body{
 }
 /* flavours */
 .flavours{
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 3%;
+  margin-right: 3%;
 
 }
 .flav-item img{
