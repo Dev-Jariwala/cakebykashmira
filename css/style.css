@@ -1,0 +1,150 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #EEEEEE ;
+}
+
+/* Navigation Bar */
+.nb{
+  background-color: #FF4C68;
+}
+
+.logo{
+  width: 150px;
+}
+.nb ul li a {
+  color: white;
+  font-size: 18px;
+}
+.nb-items{
+  margin-left: 50px;
+}
+
+.nb-items ul li {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* Our Blockbusters Cakes */
+.ex-card{
+  margin: 50px 10%;
+}
+.tit{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  align-self: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.h-100{
+  height: 100%;
+}
+/* .ex-card .h-100 img{
+  height: 300px;
+} */
+
+/* footer */
+.footer{
+  background-color: #FF4C68;
+  color: white;
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.footer-link{
+  margin: auto 7px;
+}
+
+.footer a{
+  color: white;
+}
+.footer a:hover{
+  color: black;
+}
+.footer a::after{
+  color:white;
+}
+/* developer */
+.developer {
+  display: flex;
+  flex-direction: row;
+
+}
+.developer a{
+  text-decoration: none;
+}
+/* flavours */
+.flavours{
+  margin-left: 10%;
+  margin-right: 10%;
+
+}
+.flav-item img{
+  /* width: 150px; */
+  width: 100px;
+  border-radius: 50%;
+  border: 3px solid #FF4C68;
+  margin-bottom: 5px;
+}
+.flav-item{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto 15px;
+}
+.flav-items{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  transition: 0.5s all ease-out;
+
+}
+.btn-prev, .btn-next{
+  color: black;
+  font-size: 28px;
+}
+.horizontal-scroll{
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  overflow-x: scroll;
+}
+.horizontal-scroll::-webkit-scrollbar{
+  width: 0;
+}
+.horizontal-scroll .btn-scroll{
+  background-color: #fff;
+  color: #999;
+  padding: 5px 8px;
+  border: 0;
+  border-radius: 50%;
+  margin: 0 5px;
+  z-index: 1;
+  cursor: pointer;
+  box-shadow: 0 0 10px #999;
+  transition: 1s;
+  /* position: fixed; */
+}
+
+/* likes */
+.like-btn{
+  border: none;
+  outline: none;
+  background: none;
+  margin-bottom: 3px;
+
+}
