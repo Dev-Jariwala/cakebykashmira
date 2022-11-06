@@ -30,18 +30,54 @@ body{
 }
 /* banner */
 .banner{
-  width: 99%;
+  width: 90%;
   height: 50%;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px 6px grey;
 }
+#carouselBanner .slides{
+  width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+.slide{
+  width: 100%;
+  border-radius: 15px;
+}
+.carousel-inner{
+  margin: auto 10px;
+}
+.slide-btn{
+  border: none;
+}
+
 @media (min-width: 1030px) {
-  .banner{
+  #carouselBanner .slides{
     width: 77%;
   }
+  .slide{
+    border-radius: 30px;
+  }
+  .carousel-inner{
+    margin: auto 20px;
+  }
+  .banner{
+    width: 77%;
+    border-radius: 30px;
+
+  }
+
 }
 .ban{
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 10px;
 }
 /* Our Blockbusters Cakes */
 .ex-card{
