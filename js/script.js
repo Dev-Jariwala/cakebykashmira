@@ -47,11 +47,13 @@ function likebtn (btn, icon, c){
     if(!clicked){
       clicked=true;
       likeIcon.innerHTML = `<i class="fa-solid fa-heart"></i>`
+      likeIcon.style.color="red";
       count.textContent++;
 
     }else{
       clicked = false;
       likeIcon.innerHTML = `<i class="fa-regular fa-heart"></i>`
+      likeIcon.style.color="black";
       count.textContent--;
     }
   });

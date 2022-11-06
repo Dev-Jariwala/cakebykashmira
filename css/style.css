@@ -28,7 +28,21 @@ body{
   margin-left: 10px;
   margin-right: 10px;
 }
-
+/* banner */
+.banner{
+  width: 99%;
+  height: 50%;
+}
+@media (min-width: 1030px) {
+  .banner{
+    width: 77%;
+  }
+}
+.ban{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 /* Our Blockbusters Cakes */
 .ex-card{
   margin: 0 10% 50px;
@@ -147,4 +161,7 @@ body{
   background: none;
   margin-bottom: 3px;
 
+}
+.card-body button{
+  color: black;
 }
