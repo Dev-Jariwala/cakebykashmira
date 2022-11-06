@@ -49,7 +49,7 @@ body{
   width: 100%;
   border-radius: 15px;
 }
-.carousel-inner{
+#carouselBanner .carousel-inner{
   margin: auto 10px;
 }
 .slide-btn{
@@ -63,7 +63,7 @@ body{
   .slide{
     border-radius: 30px;
   }
-  .carousel-inner{
+  #carouselBanner .carousel-inner{
     margin: auto 20px;
   }
   .banner{
