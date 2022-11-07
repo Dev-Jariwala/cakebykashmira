@@ -27,7 +27,7 @@
       <div class="collapse navbar-collapse nb-items" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#">Home</a>
+            <a class="nav-link" aria-current="page" href="index.html">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">About</a>
@@ -43,46 +43,6 @@
       </div>
     </div>
   </nav>
-  <!-- Banner -->
-  <!-- <div class="ban"> -->
-  <!-- <img class="banner"src="img/banner/banner.gif" alt=""> -->
-  <!-- <img class="banner" src="img/banner/banner.png" alt=""> -->
-  <!-- <img class="banner"src="img/banner/mummy.png" alt=""> -->
-  <!-- <img class="banner" src="img/banner/mumdev.png" alt=""> -->
-  <!-- <img class="banner" src="img/banner/banner1.png" alt=""> -->
-  <!-- <img class="banner"src="img/banner/dev.png" alt=""> -->
-  <!-- </div> -->
-
-  <!-- carouselBanner -->
-  <div id="carouselBanner" class="carousel slide" data-bs-ride="carousel">
-    <div class="slides">
-      <button class="slide-btn" type="button" data-bs-target="#carouselBanner" data-bs-slide="prev">
-        <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
-        <i class="fa-solid fa-chevron-left "></i>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <div class="carousel-inner">
-        <div class="carousel-item active" data-bs-interval="10000">
-          <img class="slide" src="img/banner/devbanner.png" alt="">
-        </div>
-        <div class="carousel-item">
-          <img class="slide" src="img/banner/cbk.png" alt="">
-        </div>
-        <div class="carousel-item" data-bs-interval="2000">
-          <img class="slide" src="img/banner/mum.png" alt="">
-        </div>
-        <!-- <div class="carousel-item">
-                <img class="slide" src="img/banner/banner1.png" alt="">
-          </div> -->
-      </div>
-
-      <button class="slide-btn" type="button" data-bs-target="#carouselBanner" data-bs-slide="next">
-        <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
-        <i class="fa-solid fa-chevron-right "></i>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-  </div>
   <!-- Flavours -->
   <h2 class="tit flavours">Flavours</h2>
   <div class="flavours">
@@ -147,23 +107,50 @@
         </div>
       </div>
     </div>
-  </div>
-  <!-- Our Blockbusters Cakes -->
+  </div> <!-- Vanilla Cakes -->
   <div class="ex-card">
     <div class="container-fluid">
       <hr>
-      <h2 class="tit">Our Blockbusters</h2>
+      <h2 class="tit">Vanilla</h2>
       <div class="row row-cols-1 row-cols-lg-4 row-cols-md-3 row-cols-sm-2 g-4">
         <div class="col">
           <div class="card h-100">
-            <img src="img/bb-cakes/c2.jpg" class="card-img-top" alt="...">
+            <!-- <img src="img/c.jpeg" class="card-img-top" alt="..."> -->
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="img/bb-cakes/c2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/bb-cakes/c3.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/bb-cakes/c4.jpg" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <!-- <span class="btn-prev"><i class="fa-solid fa-chevron-left"></i></span> -->
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
             <div class="card-body">
               <button id="bb-like1" class="like-btn" type="button" name="button">
                 <span id="bb-icon1"><i class="fa-regular fa-heart"></i></span>
               </button>
               <span class="count1">0</span> Likes
-              <h5 class="card-title">Chocolate cake</h5>
-              <p class="card-text">Chocolate cake with roses on top layer.</p>
+              <h5 class="card-title">Just testing</h5>
+              <p class="card-text">Remeber to like if you like this slide.</p>
             </div>
           </div>
         </div>
@@ -258,47 +245,7 @@
             </div>
           </div>
         </div>
-        <div class="col">
-          <div class="card h-100">
-            <!-- <img src="img/c.jpeg" class="card-img-top" alt="..."> -->
-            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
-              <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-              </div>
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img src="img/bb-cakes/c2.jpg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                  <img src="img/bb-cakes/c3.jpg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                  <img src="img/bb-cakes/c4.jpg" class="d-block w-100" alt="...">
-                </div>
-              </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <!-- <span class="btn-prev"><i class="fa-solid fa-chevron-left"></i></span> -->
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
 
-                <span class="visually-hidden">Next</span>
-              </button>
-            </div>
-            <div class="card-body">
-              <button id="bb-like9" class="like-btn" type="button" name="button">
-                <span id="bb-icon9"><i class="fa-regular fa-heart"></i></span>
-              </button>
-              <span class="count9">0</span> Likes
-              <h5 class="card-title">Just testing</h5>
-              <p class="card-text">Remeber to like if you like this slide.</p>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
     <hr>
@@ -318,7 +265,7 @@
     </div>
   </div>
   <!-- js -->
-  <script src="js/script.js" charset="utf-8"></script>
+  <script src="js/flav.js" charset="utf-8"></script>
   <!-- bootstrap js -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </body>
