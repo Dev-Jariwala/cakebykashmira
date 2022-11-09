@@ -1,0 +1,390 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cake by Kashmira</title>
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Styles.css -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/d13807cb98.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- Naviggation Bar -->
+  <nav class="navbar navbar-expand-lg nb">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img class="logo" src="img/cbkmclogo.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse nb-items" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">Contact</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-light" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- Flavours -->
+  <h2 class="tit flavours">Flavours</h2>
+  <div class="flavours">
+    <div class="container-fluid">
+      <div class="horizontal-scroll">
+        <!-- <button class="btn-scroll" id="btn-scroll-left" onclick="scrollHorizontally(1)"><i class="fa-solid fa-chevron-left"></i></button> -->
+        <!-- <button class="btn-scroll" id="btn-scroll-right" onclick="scrollHorizontally(-1)"><i class="fa-solid fa-chevron-right"></i></button> -->
+        <div class="flav-items">
+          <div class="flav-item">
+            <a href="chocolate.html"><img src="img/flav/chocolate/c.jpg" alt=""></a>
+            <h6>Chocolate</h6>
+          </div>
+          <div class="flav-item">
+            <a href="truffle.html"><img src="img/flav/chocolate-truffle/ct1.jpg" alt="ct1"></a>
+            <h6>Truffle</h6>
+          </div>
+          <div class="flav-item">
+            <a href="chips.html"><img src="img/flav/chocolate-chips/cc2.jpg" alt="cc2"></a>
+            <h6>Chips</h6>
+          </div>
+          <div class="flav-item">
+            <a href="oreo.html"><img src="img/flav/oreo/o10.jpg" alt="o10"></a>
+            <h6>Oreo</h6>
+          </div>
+          <div class="flav-item">
+            <a href="kitkat.html"><img src="img/flav/kitkat/kk1.jpg" alt="kk1"></a>
+            <h6>Kit-Kat</h6>
+          </div>
+          <div class="flav-item">
+            <a href="pinata.html"><img src="img/flav/pinata/p6.jpg" alt="p1"></a>
+            <h6>Pinata</h6>
+          </div>
+          <div class="flav-item">
+            <a href="redVelvet.html"><img src="img/flav/redvelvet/rv.jpg" alt=""></a>
+            <h6>Red Velvet</h6>
+          </div>
+          <div class="flav-item">
+            <a href="pineapple.html"><img src="img/flav/pineapple/pa.jpg" alt=""></a>
+            <h6>Pineapple</h6>
+          </div>
+          <div class="flav-item">
+            <a href="mango.html"><img src="img/flav/mango/m.jpg" alt=""></a>
+            <h6>Mango</h6>
+          </div>
+          <div class="flav-item">
+            <a href="blackForest.html"><img src="img/flav/blackforest/bf.jpg" alt=""></a>
+            <h6>Black Forest</h6>
+          </div>
+          <div class="flav-item">
+            <a href="vanilla.html"><img src="img/flav/vanilla/v.jpg" alt=""></a>
+            <h6>Vanilla</h6>
+          </div>
+          <div class="flav-item">
+            <a href="strawberry.html"><img src="img/flav/strawberry/sb.jpg" alt=""></a>
+            <h6>Strawberry</h6>
+          </div>
+
+          <div class="flav-item">
+            <a href="dryFruit.html"><img src="img/flav/dryfruit/df.jpg" alt=""></a>
+            <h6>Dry Fruit</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Chocolate Oreo Cakes -->
+  <div class="ex-card">
+    <div class="container-fluid">
+      <hr>
+      <h2 class="tit">Chocolate Oreo Cakes</h2>
+      <div class="row row-cols-1 row-cols-lg-4 row-cols-md-3 row-cols-sm-2 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/flav/oreo/o1.jpg" class="card-img-top" alt="o1">
+            <div class="card-body">
+              <button id="bb-like1" class="like-btn" type="button" name="button">
+                <span id="bb-icon1"><i class="fa-regular fa-heart"></i></span>
+              </button>
+              <span class="count1">0</span> Likes
+              <h5 class="card-title"></h5>
+              <p class="card-text"></p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/flav/oreo/o2.jpg" class="card-img-top" alt="o2">
+            <div class="card-body">
+              <button id="bb-like2" class="like-btn" type="button" name="button">
+                <span id="bb-icon2"><i class="fa-regular fa-heart"></i></span>
+              </button>
+              <span class="count2"> 0 </span> Likes
+              <h5 class="card-title"></h5>
+              <p class="card-text"></p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/flav/oreo/o3.jpg" class="card-img-top" alt="o3">
+            <div class="card-body">
+              <button id="bb-like3" class="like-btn" type="button" name="button">
+                <span id="bb-icon3"><i class="fa-regular fa-heart"></i></span>
+              </button>
+              <span class="count3">0</span> Likes
+              <h5 class="card-title"></h5>
+              <p class="card-text"></p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/flav/oreo/o4.jpg" class="card-img-top" alt="o4">
+            <div class="card-body">
+              <button id="bb-like4" class="like-btn" type="button" name="button">
+                <span id="bb-icon4"><i class="fa-regular fa-heart"></i></span>
+              </button>
+              <span class="count4">0</span> Likes
+              <h5 class="card-title"></h5>
+              <p class="card-text"></p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/flav/oreo/o5.jpg" class="card-img-top" alt="o5">
+            <div class="card-body">
+              <button id="bb-like5" class="like-btn" type="button" name="button">
+                <span id="bb-icon5"><i class="fa-regular fa-heart"></i></span>
+              </button>
+              <span class="count5">0</span> Likes
+              <h5 class="card-title"></h5>
+              <p class="card-text"></p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/flav/oreo/o6.jpg" class="card-img-top" alt="o6">
+            <div class="card-body">
+              <button id="bb-like6" class="like-btn" type="button" name="button">
+                <span id="bb-icon6"><i class="fa-regular fa-heart"></i></span>
+              </button>
+              <span class="count6">0</span> Likes
+              <h5 class="card-title"></h5>
+              <p class="card-text"></p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/flav/oreo/o7.jpg" class="card-img-top" alt="o7">
+            <div class="card-body">
+              <button id="bb-like7" class="like-btn" type="button" name="button">
+                <span id="bb-icon7"><i class="fa-regular fa-heart"></i></span>
+              </button>
+              <span class="count7">0</span> Likes
+              <h5 class="card-title"></h5>
+              <p class="card-text"></p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/flav/oreo/o8.jpg" class="card-img-top" alt="o8">
+            <div class="card-body">
+              <button id="bb-like8" class="like-btn" type="button" name="button">
+                <span id="bb-icon8"><i class="fa-regular fa-heart"></i></span>
+              </button>
+              <span class="count8">0</span> Likes
+              <h5 class="card-title"></h5>
+              <p class="card-text"></p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/flav/oreo/o9.jpg" class="card-img-top" alt="o9">
+            <div class="card-body">
+              <button id="bb-like9" class="like-btn" type="button" name="button">
+                <span id="bb-icon9"><i class="fa-regular fa-heart"></i></span>
+              </button>
+              <span class="count9">0</span> Likes
+              <h5 class="card-title"></h5>
+              <p class="card-text"></p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/flav/oreo/o10.jpg" class="card-img-top" alt="o10">
+            <div class="card-body">
+              <button id="bb-like10" class="like-btn" type="button" name="button">
+                <span id="bb-icon10"><i class="fa-regular fa-heart"></i></span>
+              </button>
+              <span class="count10"> 0 </span> Likes
+              <h5 class="card-title"></h5>
+              <p class="card-text"></p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/flav/oreo/o11.jpg" class="card-img-top" alt="o11">
+            <div class="card-body">
+              <button id="bb-like11" class="like-btn" type="button" name="button">
+                <span id="bb-icon11"><i class="fa-regular fa-heart"></i></span>
+              </button>
+              <span class="count11">0</span> Likes
+              <h5 class="card-title"></h5>
+              <p class="card-text"></p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/flav/oreo/o12.jpg" class="card-img-top" alt="o12">
+            <div class="card-body">
+              <button id="bb-like12" class="like-btn" type="button" name="button">
+                <span id="bb-icon12"><i class="fa-regular fa-heart"></i></span>
+              </button>
+              <span class="count12">0</span> Likes
+              <h5 class="card-title"></h5>
+              <p class="card-text"></p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/flav/oreo/o13.jpg" class="card-img-top" alt="o13">
+            <div class="card-body">
+              <button id="bb-like13" class="like-btn" type="button" name="button">
+                <span id="bb-icon13"><i class="fa-regular fa-heart"></i></span>
+              </button>
+              <span class="count13">0</span> Likes
+              <h5 class="card-title"></h5>
+              <p class="card-text"></p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/flav/oreo/o14.jpg" class="card-img-top" alt="o14">
+            <div class="card-body">
+              <button id="bb-like14" class="like-btn" type="button" name="button">
+                <span id="bb-icon14"><i class="fa-regular fa-heart"></i></span>
+              </button>
+              <span class="count14">0</span> Likes
+              <h5 class="card-title"></h5>
+              <p class="card-text"></p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/flav/oreo/o15.jpg" class="card-img-top" alt="o15">
+            <div class="card-body">
+              <button id="bb-like15" class="like-btn" type="button" name="button">
+                <span id="bb-icon15"><i class="fa-regular fa-heart"></i></span>
+              </button>
+              <span class="count15">0</span> Likes
+              <h5 class="card-title"></h5>
+              <p class="card-text"></p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/flav/oreo/o16.jpg" class="card-img-top" alt="o16">
+            <div class="card-body">
+              <button id="bb-like16" class="like-btn" type="button" name="button">
+                <span id="bb-icon16"><i class="fa-regular fa-heart"></i></span>
+              </button>
+              <span class="count16">0</span> Likes
+              <h5 class="card-title"></h5>
+              <p class="card-text"></p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/flav/oreo/o17.jpg" class="card-img-top" alt="o17">
+            <div class="card-body">
+              <button id="bb-like17" class="like-btn" type="button" name="button">
+                <span id="bb-icon17"><i class="fa-regular fa-heart"></i></span>
+              </button>
+              <span class="count17">0</span> Likes
+              <h5 class="card-title"></h5>
+              <p class="card-text"></p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/flav/oreo/o18.jpg" class="card-img-top" alt="o18">
+            <div class="card-body">
+              <button id="bb-like18" class="like-btn" type="button" name="button">
+                <span id="bb-icon18"><i class="fa-regular fa-heart"></i></span>
+              </button>
+              <span class="count18"> 0 </span> Likes
+              <h5 class="card-title"></h5>
+              <p class="card-text"></p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/flav/oreo/o19.jpg" class="card-img-top" alt="o19">
+            <div class="card-body">
+              <button id="bb-like19" class="like-btn" type="button" name="button">
+                <span id="bb-icon19"><i class="fa-regular fa-heart"></i></span>
+              </button>
+              <span class="count19">0</span> Likes
+              <h5 class="card-title"></h5>
+              <p class="card-text"></p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <hr>
+  </div>
+
+  <!-- footer -->
+  <div class="footer">
+    <p>
+      <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+      <a href="https://www.facebook.com/profile.php?id=100005635814983"><i class="footer-link fa-brands fa-facebook"></i></a>
+      <a href="https://www.instagram.com/cake_by_kashmira/"><i class="footer-link fa-brands fa-instagram"></i></a>
+      <a href="#"><i class="footer-link fa-solid fa-envelope"></i></a>
+    </p>
+    <p class="footer-copyright">© Copyright &nbsp &nbsp @CakebyKashmira</p>
+    <div class="developer">
+      <p>Developed by:</p> <a href="https://dev-jariwala.github.io/MyPortfolio/"> &nbsp Dev Jariwala</a>
+    </div>
+  </div>
+  <!-- js -->
+  <script src="js/flav.js" charset="utf-8"></script>
+  <!-- bootstrap js -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+
+</html>
