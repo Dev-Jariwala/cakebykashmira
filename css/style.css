@@ -201,3 +201,6 @@ body{
 .card-body button{
   color: black;
 }
+.flav-item .bt{
+  font-size: 14px;
+}
